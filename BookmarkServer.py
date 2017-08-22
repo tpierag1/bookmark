@@ -46,7 +46,7 @@ import os
 import requests
 from urllib.parse import unquote, parse_qs
 import threading
-from sockserver import ThreadingMixIn
+from socketserver import ThreadingMixIn
 
 memory = {}
 
